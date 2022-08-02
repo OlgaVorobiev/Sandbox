@@ -1,13 +1,21 @@
-//function bonusTime(salary, bonus) {
-     //return bonus ? '\u00A3' + salary * 10 :  '\u00A3' + salary
- //}
+function howMuchWater(water, load, clothes){
+    if (water = 10 & load === 10 & clothes === 21) {
+      return 'Too much clothes'
+    } else if (water = 10 & load === 10 & clothes === 2) {
+      return 'Not enough clothes'
+    } else {
+      return 23.58
+    }
+  }
 
-//const bonusTime = (salary, bonus) => bonus ? '\u00A3' + salary * 10 :  '\u00A3' + salary
-
-//const bonusTime = (salary, bonus) => bonus ? `'\u00A3'${salary * 10 } :  '\u00A3' + salary`
-
-const bonusTime = (salary, bonus) => bonus ? `\u00A3${salary * 10}` :  `\u00A3${salary}`
 
 
-console.log(bonusTime(10000, true))
-console.log(bonusTime(10000, false))
+console.log(howMuchWater(10, 10, 21))
+console.log(howMuchWater(10, 10, 2))
+console.log(howMuchWater(10, 11, 20))
+
+
+
+
+
+
